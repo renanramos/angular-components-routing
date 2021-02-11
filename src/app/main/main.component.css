@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0px;
+}
+
+button {
+  width: 10rem;
+  height: 2rem;
+}
+
+.main {
+  width: 100vw;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

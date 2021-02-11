@@ -1,0 +1,17 @@
+<h1>main works!</h1>
+<div>
+  <ul>
+    <li>
+      <button (click)="changePage('/one')">Component One</button>
+    </li>
+    <li>
+      <button (click)="changePage('/two')">Component two</button>
+    </li>
+    <li>
+      <button (click)="changePage('/three')">Component three</button>
+    </li>
+  </ul>
+</div>
+<div class="main">
+  <router-outlet></router-outlet>
+</div>
